@@ -11,7 +11,9 @@ import com.polovniautomobili.pages.SearchResult;
 
 public class TestUsedCars extends StartWebDriver{
 
-	String expectedTitle="Polovni automobili ";
+	//Test class
+	
+	String expectedTitle="Polovni automobili";
 	
 	@Test
 	public void testUsedCars() {

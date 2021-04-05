@@ -6,6 +6,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
 
+	// class that opens home pahe, polovniautomobili.com,
+	// closes banner, accept cookies and lead us to
+	// detailed car search
+
 	private WebDriver webDriver;
 
 	public HomePage(WebDriver drv) {

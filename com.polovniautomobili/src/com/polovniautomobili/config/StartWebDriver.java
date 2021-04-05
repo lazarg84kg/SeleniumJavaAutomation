@@ -10,6 +10,8 @@ public class StartWebDriver {
 
 	public static WebDriver driver = null;
 
+	
+	
 	@BeforeSuite
 	public void setUp() {
 		try {
@@ -30,7 +32,7 @@ public class StartWebDriver {
 		}
 	}
 
-	@AfterSuite(alwaysRun = true)
+	@AfterSuite
 	public void tearDown() {
 		try {
 			driver.close();

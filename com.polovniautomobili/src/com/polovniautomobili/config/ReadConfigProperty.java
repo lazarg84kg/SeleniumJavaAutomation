@@ -8,6 +8,9 @@ public class ReadConfigProperty {
 	protected InputStream input = null;
 	protected Properties prop = null;
 
+	//Class that loads config.properties file, with methods that gets some properties
+	//eg. url, browser etc...
+	
 	public ReadConfigProperty() {
 		String filename = "com/polovniautomobili/resources/config.properties";
 		try {

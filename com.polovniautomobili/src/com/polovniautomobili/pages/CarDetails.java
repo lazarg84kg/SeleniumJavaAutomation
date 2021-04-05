@@ -7,6 +7,9 @@ import java.util.List;
 
 public class CarDetails extends BasePage {
 
+	//class that will show us some car details
+	// in this case, we need to print owner phone(s), car price, registration price, 
+	
 	public CarDetails(WebDriver drv) {
 		super(drv);
 	}

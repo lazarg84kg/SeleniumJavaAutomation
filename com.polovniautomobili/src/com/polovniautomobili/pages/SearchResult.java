@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import com.polovniautomobili.config.SearchCriteria;
+
 public class SearchResult extends BasePage {
 	private WebDriver webDriver;
 
@@ -12,7 +14,11 @@ public class SearchResult extends BasePage {
 		webDriver = drv;
 	}
 
-	@FindBy(xpath = "//div[@id='search-results']//div[text()=' Kragujevac']/ancestor::article/h2/span/a")
+	// class that show us searching result, and take us to the car details page
+	// CARXPATH is set in SearchCriteria class and take us to the specific sar,
+	// in this example car needs to be from Kragujevac
+	
+	@FindBy(xpath = SearchCriteria.CARXPATH)
 	private WebElement specificCar;
 
 	public CarDetails selectSpecificCar() {

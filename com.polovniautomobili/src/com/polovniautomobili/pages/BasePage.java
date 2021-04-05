@@ -7,6 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
 
+	// BasePage class that inits Page factory,
+	// and contains some elements that are used multiple times.
+
 	public BasePage(WebDriver drv) {
 		PageFactory.initElements(drv, this);
 	}
