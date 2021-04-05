@@ -14,7 +14,6 @@ public class DetailedSearch extends BasePage {
 	//specification is in read me file of this project
 	
 	private WebDriver webDriver;
-	ReadConfigProperty file = new ReadConfigProperty();
 
 	public DetailedSearch(WebDriver drv) {
 		super(drv);
