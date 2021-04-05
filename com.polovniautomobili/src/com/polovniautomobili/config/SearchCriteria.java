@@ -2,6 +2,8 @@ package com.polovniautomobili.config;
 
 public class SearchCriteria {
 
+	//constants that are used in this project
+	
 	public static final String BRAND = "audi";
 	public static final String MODEL = "A3";
 	public static final String CHASSIS = "Limuzina";
