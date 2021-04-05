@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/programer/eclipse-workspace/com.polovniautomobili/src/com/polovniautomobili/resources/selenium-server-4.0.0-alpha-7.jar"/>
+	<classpathentry kind="lib" path="/home/programer/eclipse-workspace/com.polovniautomobili/src/com/polovniautomobili/resources/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/home/programer/eclipse-workspace/com.polovniautomobili/src/com/polovniautomobili/resources/testng-7.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
