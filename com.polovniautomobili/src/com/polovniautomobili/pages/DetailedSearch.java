@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
-import com.polovniautomobili.config.ReadConfigProperty;
 import com.polovniautomobili.config.SearchCriteria;
 
 public class DetailedSearch extends BasePage {

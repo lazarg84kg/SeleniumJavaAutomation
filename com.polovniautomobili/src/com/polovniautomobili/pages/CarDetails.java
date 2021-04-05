@@ -3,6 +3,9 @@ package com.polovniautomobili.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import com.polovniautomobili.config.SearchCriteria;
+
 import java.util.List;
 
 public class CarDetails extends BasePage {
@@ -14,16 +17,16 @@ public class CarDetails extends BasePage {
 		super(drv);
 	}
 
-	@FindBy(xpath = "//section[@class='uk-grid']/descendant::div[contains(text(),'klik')]")
+	@FindBy(xpath = SearchCriteria.SHOW_PHONE_XPATH)
 	private WebElement showPhone;
 
-	@FindBy(xpath = "//div[@class='osiguranikConternt']/child::strong")
+	@FindBy(xpath = SearchCriteria.PRICE_XPATH)
 	private List<WebElement> cena;
 
-	@FindBy(xpath = "//section[@class='uk-grid']/descendant::a[contains(.,'0')]")
+	@FindBy(xpath = SearchCriteria.PHONE_NUMBER_XPATH)
 	private List<WebElement> broj;
 
-	@FindBy(xpath = "//div[@class='price-item position-relative']")
+	@FindBy(xpath = SearchCriteria.CAR_PRICE_XPATH)
 	private WebElement carPrice;
 
 	public void cenaReg() {

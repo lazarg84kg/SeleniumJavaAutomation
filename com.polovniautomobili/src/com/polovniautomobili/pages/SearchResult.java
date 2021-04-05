@@ -18,7 +18,7 @@ public class SearchResult extends BasePage {
 	// CARXPATH is set in SearchCriteria class and take us to the specific sar,
 	// in this example car needs to be from Kragujevac
 	
-	@FindBy(xpath = SearchCriteria.CARXPATH)
+	@FindBy(xpath = SearchCriteria.CAR_XPATH)
 	private WebElement specificCar;
 
 	public CarDetails selectSpecificCar() {

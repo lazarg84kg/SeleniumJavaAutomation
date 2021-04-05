@@ -15,6 +15,13 @@ public class SearchCriteria {
 	
 	// XPATHS used in projects
 	
-	public static final String CARXPATH="//div[@id='search-results']//div[text()=' Kragujevac']/ancestor::article/h2/span/a";
-	
+	public static final String CAR_XPATH ="//div[@id='search-results']//div[text()=' Kragujevac']/ancestor::article/h2/span/a";
+	public static final String SHOW_PHONE_XPATH = "//section[@class='uk-grid']/descendant::div[contains(text(),'klik')]";
+	public static final String PRICE_XPATH = "//div[@class='osiguranikConternt']/child::strong";
+	public static final String PHONE_NUMBER_XPATH ="//section[@class='uk-grid']/descendant::a[contains(.,'0')]";
+	public static final String CAR_PRICE_XPATH ="//div[@class='price-item position-relative']";
+	//public static final String
+
+
+
 }
