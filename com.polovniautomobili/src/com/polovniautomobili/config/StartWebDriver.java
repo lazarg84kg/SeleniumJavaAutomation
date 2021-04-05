@@ -26,7 +26,7 @@ public class StartWebDriver {
 
 			driver.get(file.getUrl());
 			driver.manage().window().maximize();
-			// driver.manage().timeouts().pageLoadTimeout(file.getPageWait(),TimeUnit.SECONDS);
+			//driver.manage().timeouts().pageLoadTimeout(file.getPageWait(),TimeUnit.SECONDS);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
