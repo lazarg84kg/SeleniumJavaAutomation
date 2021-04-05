@@ -11,7 +11,7 @@ import com.polovniautomobili.config.SearchCriteria;
 public class DetailedSearch extends BasePage {
 	//in this class we are searching for elements that we need 
 	//so we can find car with specification that we're given.
-	//specification is in read me file of this project.
+	//specification is in read me file of this project
 	
 	private WebDriver webDriver;
 	ReadConfigProperty file = new ReadConfigProperty();
